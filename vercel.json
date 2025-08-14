@@ -1,23 +1,12 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cross-Origin-Embedder-Policy",
-          "value": "require-corp"
-        },
-        {
-          "key": "Cross-Origin-Opener-Policy",
-          "value": "same-origin"
-        }
-      ]
-    }
-  ]
+  "name": "gba-emulator-web",
+  "version": "1.0.0",
+  "description": "Web-based GBA emulator using EmulatorJS",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p public && cp index.html public/ && echo 'Build completed - static files ready'"
+  },
+  "keywords": ["gba", "emulator", "gameboy", "retro", "gaming"],
+  "author": "Your Name",
+  "license": "MIT"
 }
