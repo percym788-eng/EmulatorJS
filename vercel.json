@@ -1,12 +1,5 @@
 {
-  "name": "gba-emulator-web",
-  "version": "1.0.0",
-  "description": "Web-based GBA emulator using EmulatorJS",
-  "main": "index.html",
-  "scripts": {
-    "build": "mkdir -p public && cp index.html public/ && echo 'Build completed - static files ready'"
-  },
-  "keywords": ["gba", "emulator", "gameboy", "retro", "gaming"],
-  "author": "Your Name",
-  "license": "MIT"
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": ".",
+  "installCommand": "echo 'No install needed'"
 }
