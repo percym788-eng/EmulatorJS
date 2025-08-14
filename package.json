@@ -4,17 +4,9 @@
   "description": "Web-based GBA emulator using EmulatorJS",
   "main": "index.html",
   "scripts": {
-    "dev": "http-server -p 3000",
-    "build": "echo 'Build completed - static files ready'",
-    "start": "http-server -p 8080"
+    "build": "mkdir -p public && cp index.html public/ && echo 'Build completed - static files ready'"
   },
   "keywords": ["gba", "emulator", "gameboy", "retro", "gaming"],
   "author": "Your Name",
-  "license": "MIT",
-  "devDependencies": {
-    "http-server": "^14.1.1"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  }
+  "license": "MIT"
 }
